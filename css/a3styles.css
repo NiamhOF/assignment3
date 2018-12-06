@@ -1,0 +1,198 @@
+
+
+.background {
+    background-image: url("../images/transport-icons.jpg");
+    background-repeat: repeat;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.contents {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+ 
+p {
+    color: dimgray;
+    position: relative;
+    display: inline;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: dimgrey;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+td, th {
+    width: 25%;
+    text-align: left;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid dimgrey;
+  }
+  
+th {
+    background-color: darkorange;
+    color: white;
+    height: 40px;
+  } 
+
+tr:hover {
+    background-color: rgba(253, 140, 37, .6);
+  }
+
+#dropdownTable th {
+    border-collapse: collapse;
+    border: none;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    color: dimgrey;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: lightgray;
+    height: 30px;
+    padding: 5px;
+}
+
+#rows td {
+    border-collapse: collapse;
+    border: none;
+    height: 30px;
+    padding: 5px;
+    background-color: #F2F1F1;
+}
+
+#rows:hover td{
+    background-color: #e8e8e8;
+    z-index: 5;
+}
+  
+#total td {
+    border-collapse: collapse;
+    border: none;
+    border-top: 1px solid;
+    height: 30px;
+    padding: 5px;
+    background-color: rgba(253, 140, 37, .6);
+}
+
+#errorMessage {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#errorMessage p {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/*below css for navigation bar was created using w3 schools - https://www.w3schools.com/howto/howto_js_topnav.asp 
+Navigation bar styling*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #FF8C00;
+    padding: 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+.navbar a {
+    float: left;
+    color: dimgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: darkorange;
+    margin: 0;
+}
+
+.navbar p {
+    float: right;
+    background-color: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.navbar a:hover {
+    background-color: lightgray;
+    color: white;
+    font-weight: bolder;
+}
+
+.navbar img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        position: relative;
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: 0;
+   }
+}
+
+#footer {
+    font-size: 14px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.link {
+    color: dimgray;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: text-top;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: darkorange;
+    cursor: pointer;
+}
+
+select {
+    position: relative;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-size: 14px;
+    color: dimgrey;
+    background-color: lightgray;
+  }
+  
+select:hover {
+    background-color: darkorange;
+    color: white; 
+  }
+
